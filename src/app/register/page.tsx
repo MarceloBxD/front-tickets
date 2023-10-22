@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../logo/page'
+import Logo from '../components/logo/page'
 import './register.css'
 import Link from 'next/link';
 
@@ -15,7 +15,8 @@ const Register: React.FC = () => {
             <input placeholder='Nome completo' className='register-form-input' type="text" />
             <input placeholder='Email' className='register-form-input' type="email" />
             <input placeholder='Senha' className='register-form-input' type="password" />
-            <input className='register-form-button register-form-input' type="submit" value="Finalizar Cadastro" />
+            <input placeholder='Confirmar senha' className='register-form-input' type="password" />
+            <input className='register-form-button register-form-input' type="submit" value="Cadastrar" />
           </form>
           <span>Já tem cadastro? <Link href="/login">Conecte-se</Link></span>
         </div>

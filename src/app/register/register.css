@@ -28,6 +28,7 @@
 }
 
 .register-form > h2 {
+    text-align: center;
     color: #222C2F;
     font-family: 'Inter', sans-serif;
     font-size: 32px;
@@ -37,17 +38,18 @@
 }
 
 .register-form-input {
-    border-radius: 5px;
-    border: 1px solid #DBE3E5;
-    background: #FFF;
+    border-bottom: 1px solid #777A7C;
+    background: transparent;
     padding: 10px;
     outline: none;
 }
 
 .register-form-button {
-    border-radius: 5px;
+    margin: 0 auto;
+    width: 240px;
+    border-radius: 50px;
     border: 1px solid #DBE3E5;
-    background: #B99F73;
+    background: #213A5C;
     color: #fff;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -55,6 +57,9 @@
     font-weight: 700;
     line-height: normal;
     cursor: pointer;
+}
+.register-form-button:hover {
+    background: #152132;
 }
 
 .register-form-wrapper > span {
@@ -67,7 +72,7 @@
 }
 
 .register-form-wrapper > span > a {
-    color: #1B897F;
+    color: #213A5C;
     font-weight: 800;
 }
 

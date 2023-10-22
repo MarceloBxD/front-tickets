@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../logo/page'
+import Logo from '../components/logo/page'
 import Link from 'next/link';
 
 import './login.css'
