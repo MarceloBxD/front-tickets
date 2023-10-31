@@ -1,12 +1,13 @@
 
 // TELA DE HOME
 
-import Login from "./register/page";
+// import Login from "./register/page";
+import HomeP from './pages/home/page'
 
 export default function Home() {
   return (
     <>
-      <Login />
+      <HomeP />
     </>
   )
 }
